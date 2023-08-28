@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --color-default: #fff;
+  --btn-bg : indigo;
+}
+
+@import url('./color/index.css');
+
+@media (prefers-color-scheme: dark){
+	:root{
+		--color-default: #252b30;
+	}
+}
+
+
+
+[data-theme='red'] {
+  --color-default: #ffabc8;
+  --btn-bg : red;
+}
+
+[data-theme='blue'] {
+  --color-default: #7ec6ff;
+  --btn-bg : blue;
+
+}
+[data-theme='green'] {
+  --color-default: #60ff5a;
+  --btn-bg : rgb(128, 0, 0);
+}
+
+[data-theme='yellow'] {
+  --color-default: #ffd65a;
+  --btn-bg : yellow;
+
+}
+
+
+.svgs{
+  /* fill: white; */
+}

@@ -1,0 +1,21 @@
+{
+  "ssrModuleMapping": {},
+  "edgeSSRModuleMapping": {},
+  "clientModules": {
+    "C:\\Mohammad\\mohammad\\developer\\MohammadAllamehReact\\app\\components\\layout\\button.module.css#": {
+      "id": "./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./app/components/layout/button.module.css",
+      "name": "default",
+      "chunks": []
+    },
+    "C:\\Mohammad\\mohammad\\developer\\MohammadAllamehReact\\styles\\color\\index.css#": {
+      "id": "./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./styles/color/index.css",
+      "name": "default",
+      "chunks": []
+    },
+    "C:\\Mohammad\\mohammad\\developer\\MohammadAllamehReact\\styles\\globals.css#": {
+      "id": "./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./styles/globals.css",
+      "name": "default",
+      "chunks": []
+    }
+  }
+}

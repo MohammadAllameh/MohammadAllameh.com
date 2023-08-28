@@ -1,0 +1,98 @@
+
+
+.animton-motion{
+	background-color: var(--bg-html);
+
+}
+
+
+.color-text{
+	color: var(--text--color);
+}
+
+.bg-html {
+  background-color: var(--bg-html);
+}
+.color-html{
+	color: var(--bg-html);
+}
+
+.active-color {
+	color : var(--active--color)
+}
+.active-bg-color {
+	background-color : var(--active--color);
+}
+
+.bg-header {
+	background-color: var(--header--color);
+}
+.color-header{
+	color: var(--header--color);
+}
+
+.color-icon {
+	color: var(--color-icon);
+}
+.bg-icon {
+	background-color: var(--color-icon);
+}
+
+
+.toolpit-color{
+	color : var(--bg-html);
+	background-color: var(--toolpit-bg--toolpit);
+}
+
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+/* background of the scrollbar except button or resizer */
+::-webkit-scrollbar-track {
+	background-color: var(--active--color);
+
+    border-radius:  5rem;
+}
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb {
+	background-color: var(--header--color);
+    border-radius: 5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: var(--header--color);
+}
+
+@media (min-width:728px) {
+    ::-webkit-scrollbar{
+        width: 0.38rem;
+    }
+}
+@media (max-width:728px) {
+    ::-webkit-scrollbar{
+        width: 0.19rem;
+    }
+}
+
+.container-body {
+	height: 9000px;
+  }
+  .spinner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 55%;
+  }
+  .spinner div {
+	width: 100px;
+	height: 100px;
+	background-color: hotpink;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	color: white;
+  }
